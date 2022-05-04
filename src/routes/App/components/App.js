@@ -7,16 +7,6 @@ function App() {
 
   const [isDark, setIsDark] = useState(true);
 
-  let iconTheme, btnColor;
-  if (isDark == true) {
-    iconTheme = faMoon;
-    btnColor = "#"
-  }
-  else {
-    iconTheme = faSun;
-    btnColor = "#FFA500";
-  } 
-
   return (
     <div className= {isDark ? "dark-mode app" : "app"}>
       <div className="level">
